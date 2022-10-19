@@ -55,8 +55,8 @@ def main():
 		namesDict = createNamesAndSums(listOfCsvFiles)
 		CreateCsv(namesDict)
 #		print(namesDict)
-#		return namesDict
-		dict = namesDict
+		return namesDict
+		
 
 #	else:
 #		return "please enter a directory"
